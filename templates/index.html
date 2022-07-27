@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <h1>DBS Share Price Prediction</h1>
+        <form action="/" method="post">
+            <p>Please key in USD to SGD rates (eg 1.4)</p>
+            <p><input type="number" step="0.01" name="rates"></p>
+            <p><input type="submit" value="Enter"></p>
+        </form>
+        <p>The predicted share price of DBS (using regression) is {{result1}}</p>
+        <p>The predicted share price of DBS (using tree) is {{result2}}</p>
+    </body>
+</html>
